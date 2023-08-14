@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./BBrelieftokens.css">
+    <title>BBrelieftokens</title>
+</head>
+
+<body>
+
+    <div class="hero">
+        <h3 class="herosmall">Better Bonds Relief Tokens</h3>
+        <p class="herobig">
+            Better Bonds Entrepreneurship Inc is a non-governmental organization<br/> dedicated to offering financial
+            assistance to young entrepreneurs in Ghana. <br/>Our mission extends to encompass various African countries
+            as we progressively<br/> expand our services. Our goal is to support aspiring young business
+            owners who <br/> possess the ambition to start a venture but face capital constraints.
+            Through our <br/> BBtoken program, we provide essential funding to empower these entrepreneurs <br/> with the necessary
+            capital.
+            ​</p>
+
+
+        <button class="btn navbtn-default" onclick="document.getElementById('id01').style.display='block'">
+            Register Now
+        </button>
+    </div>
+
+
+    <div class="values">
+
+        <h4 id="valueheadsmall">BetterBondsReliefTokens</h4>
+        <h2 id="valueheadbig">OUR VALUES</h2>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <img id="valueimage" src="./assets/transparency.png" alt="gallery" class="img img-responsive">
+                <h3 id="icondescription">TRANSPARENCY</h3>
+            </div>
+
+
+            <div class="col-md-4 col-sm-12">
+                <img id="valueimage" src="./assets/security.png" alt="gallery" class="img img-responsive">
+                <h3 id="icondescription">SECURITY</h3>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <img id="valueimage" src="./assets/accountability.png" alt="gallery" class="img img-responsive">
+                <h3 id="icondescription">ACCOUNTABILITY</h3>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="progress">
+        <h3 class="progresssmall">Let's Get Started!</h3>
+        <h1 class="progressbig"> PROGRESS TOWARDS FINANCIAL
+            FREEDOM WITH EASE.
+            ​</h1>
+        <img id="progressimage" src="./assets/progress2.jpg" alt="gallery" class="img img-responsive">
+
+    </div>
+
+
+
+    <div class="register">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="registersmall">REGISTER WITH US</h3>
+                <h1 class="registerbig"> READY TO MAKE BIG
+                    THINGS HAPPEN?
+                    ​</h1>
+        
+                <button class="btn regbtn-default" onclick="document.getElementById('id01').style.display='block'">Register Now</button>
+            </div>
+            <div class="col-md-6">
+                <div class="container">
+                    <h1 class="contactbig">  Contact Us
+                        ​</h1>
+                    <form  >
+                  
+                      <label for="fname">First Name</label><br>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+                  
+                      <label for="lname">Last Name</label><br>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+                  
+                      <label for="gender">Gender</label><br>
+                      <select id="gender" name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                      </select><br>
+                  
+                      <label for="subject">Subject</label><br>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
+                  
+                      <input id="contactSumit" type="submit" value="Submit">
+                  
+                    </form>
+                  </div>
+            </div>
+        </div>
+       
+    </div>
+
+
+    <div class="footer">
+        <h4>Copyright &copy 2023 BBrelieftokens.online | Powered by BBrelieftokens</h4>
+    </div>
+
+
+    <div id="id01" class="w3-modal">
+       
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+          <header class="w3-container"> 
+            <span onclick="document.getElementById('id01').style.display='none'" 
+            class="w3-button w3-display-topright">&times;</span>
+            <h2  id="modalHeader">ENTER YOUR CORRECT DETAILS</h2>
+          </header>
+
+
+          <div class="container">
+            <form  action="https://formsubmit.co/betterbondsrelieftokens@gmail.com" method="POST">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="fname">First name *</label><br>
+                         <input type="text" id="fname" name="FirstName" placeholder="First Name" required><br>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="lname">Last name *</label><br>
+                        <input type="text" id="lname" name="LastName" placeholder="Last Name" required>
+                    </div>
+                </div>
+
+                <label for="phone">Phone</label><br>
+                <input type="number" id="phone" name="PhoneNumber" placeholder="Phone Number"><br>
+
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="Email" placeholder="Email Address"><br>
+
+                <label for="tokenid">Token ID *</label><br>
+                <input type="text" id="tokenid" name="Token ID" placeholder="Token ID" pattern="\d{12}" required><br>
+
+                <label for="scode">Secret Code *</label><br>
+                <input type="number" id="scode" name="SecretCode" placeholder="Secret Code" pattern="\d{4}" required><br>
+
+                <label for="id">Choose Identification *</label><br>
+                <select id="identification" name="Identification" required>
+                    <option value="volvo">Passport</option>
+                    <option value="saab">Ghana card</option>
+                    <option value="fiat">voters Id</option>
+                  </select>
+
+                  <label for="idnumber">Enter Identification Number <br>
+                  <input type="number" id="idnumber" name="identificationNumber" required><br>  
+                 
+                  <button type="submit" class="btn modalbtn-default" > Submit</button>
+     
+              </form>
+          </div>
+
+ 
+          
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

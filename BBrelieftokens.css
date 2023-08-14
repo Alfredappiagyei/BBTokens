@@ -1,0 +1,494 @@
+.hero {
+ 
+    min-height: 100vh;
+    background-color: #071952;
+    padding: 10px 100px;
+}
+
+.navbtn-default {
+    margin-top: 50px;
+    font-size: 24px;
+    background-color: #090046;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    padding: 15px 50px 15px 50px;
+}
+
+.herobig {
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    line-height: 30px;
+    margin-top: 50px;
+     justify-content: center;
+}
+.herosmall {
+    font-size: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    margin-top: 200px;
+}
+
+
+/* VALUES */
+.values {
+    min-height: 500px;
+    background-color: #F4F2DE;
+    padding: 50px 150px;
+}
+
+
+#valueheadsmall {
+    color: #1c393d;
+    font-family: "Lora", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-style: italic;
+    display: flex;
+   
+    justify-content: center;
+}
+
+#valueheadbig {
+    color: #1c393d;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.154em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#valueimage {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#icondescription {
+    margin-bottom: 24px;
+    color: #1c393d;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.25em;
+}
+
+
+
+/* PROGRESS */
+
+.progress {
+    min-height: 750px;
+    /* background-image: url("./assets/progress2.jpg"); */
+    background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url("./assets/progress2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 150px 0px 150px;
+    overflow: visible;
+    margin-bottom: 450px;
+}
+
+.progresssmall {
+    color: #ffffff;
+    font-family: "Lora", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-style: italic;
+    line-height: 1.2em;
+    display: flex;
+   
+    justify-content: center;
+}
+
+.progressbig {
+    color: #ffffff;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.154em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* REGISTER */
+.register {
+    min-height: 550px;
+    /* background-image: url("./assets/progress2.jpg"); */
+    background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url("./assets/progress2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 40px 150px ;
+}
+
+.registersmall {
+    color: #ffffff;
+    margin-top: 150px;
+    font-family: "Lora", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-style: italic;
+    line-height: 1.2em;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.registerbig {
+    color: #ffffff;
+    font-family: "Open Sans", Sans-serif;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-size: 72px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.167em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.regbtn-default{
+    font-family: "Lora", Sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 3.8em;
+    fill: #ffffff;
+    color: #ffffff;
+    background-color: aquamarine;
+    padding: 15px 50px 15px 50px;
+    display: flex;
+    margin: auto;
+}
+
+.footer {
+    min-height: 100px;
+    background-color: ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactbig {
+    color: #ffffff;
+    font-family: "Open Sans", Sans-serif;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-size: 72px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.167em;
+    display: flex;
+     
+}
+
+
+/* MODAL */
+
+#modalHeader {
+  color: #090046;
+  margin: 30px auto 50px auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+#fname {
+    width: 300px !important;
+}
+#lname {
+    width: 300px !important;
+}
+
+#gender {
+    width: 300px !important;
+}
+input {
+    width: 860px;
+    height: 45px;
+    border: 1px solid #dadbdd;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+ 
+select {
+    width: 860px;
+    height: 45px;
+    border: 1px solid #dadbdd;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+ 
+label {
+    font-weight: normal;
+    color: #000;
+}
+
+input:valid {
+     border: 1px solid green;
+  }
+  input:invalid {
+     border: 1px solid red;
+  }
+.modalbtn-default {
+    margin-top: 20px;
+    font-size: 24px;
+    background-color: #090046;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    padding: 10px 40px 10px 40px;
+}
+#contactSumit {
+    width: 500px !important;
+    margin-top: 20px;
+    background-color: #090046;
+    color: #ffffff;
+    border: none;
+    padding: 20px, auto;
+}
+ 
+
+
+/* MOBILE DESIGN */
+
+@media screen and (max-width: 600px) {
+    .hero {
+        min-height: 450px;
+        background-color: #071952;
+        padding: 10px 20px;
+    }
+
+    
+
+    .herobig {
+        font-size: 18px;
+        font-family: sans-serif;
+        color: #fff;
+        line-height: 25px;
+        margin-top: 10px;
+        text-align: justify;
+    }
+
+    .herosmall {
+        font-size: 40px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #fff;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .navbtn-default {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        font-size: 17px;
+        padding: 10px 20px;
+        background-color: #090046;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #fff;
+        
+    }
+
+
+    /* VALUES */
+
+    #valueheadbig {
+        color: #1c393d;
+        font-family: "Open Sans", Sans-serif;
+        font-size: 35px;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.154em;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .values {
+        min-height: 500px;
+        background-color: #F4F2DE;
+        padding: 50px 50px;
+        text-align: center;
+    }
+    #valueimage {
+        height: auto;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+/* PROGRESS */
+
+.progress {
+    min-height: 350px;
+    background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url("./assets/progress2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 20px 0px 20px;
+    overflow: visible;
+    margin-bottom: 200px;
+}
+.progressbig {
+    color: #ffffff;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.154em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+/* REGISTER */
+.register {
+    min-height: 550px;
+    background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url("./assets/progress2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 20px ;
+}
+
+.registerbig {
+    color: #ffffff;
+    font-family: "Open Sans", Sans-serif;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.167em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.registersmall {
+    color: #ffffff;
+    margin-top: 50px;
+    font-family: "Lora", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-style: italic;
+    line-height: 1.2em;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.regbtn-default{
+    width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        font-size: 17px;
+        padding: 10px 20px;
+        background-color: #090046;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #fff;
+}
+    
+.contactbig {
+    color: #ffffff;
+    font-family: "Open Sans", Sans-serif;
+    margin-top: 20px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.167em;
+    display: flex;
+     
+}
+
+#contactSumit {
+    width: 100% !important;
+    margin-top: 20px;
+    background-color: #090046;
+    color: #ffffff;
+    border: none;
+}
+
+
+/* MODAL */
+input {
+    width: 100% !important;
+    height: 45px;
+    border: 1px solid #dadbdd;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+
+textarea {
+    width: 100% !important;
+    height: 45px;
+    border: 1px solid #dadbdd;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+ 
+select {
+    width: 100% !important;
+    height: 45px;
+    border: 1px solid #dadbdd;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+#fname {
+    width: 100% !important;
+}
+#lname {
+    width: 100% !important;
+}
+
+#gender {
+    width: 100% !important;
+}
+
+ 
+
+.footer {
+    min-height: 100px;
+    background-color: ffffff;
+    color: #090046;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+  }
