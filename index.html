@@ -16,11 +16,12 @@
     <div class="hero">
         <h3 class="herosmall">Better Bonds Relief Tokens</h3>
         <p class="herobig">
-            Better Bonds Entrepreneurship Inc is a non-governmental organization<br/> dedicated to offering financial
-            assistance to young entrepreneurs in Ghana. <br/>Our mission extends to encompass various African countries
-            as we progressively<br/> expand our services. Our goal is to support aspiring young business
-            owners who <br/> possess the ambition to start a venture but face capital constraints.
-            Through our <br/> BBtoken program, we provide essential funding to empower these entrepreneurs <br/> with the necessary
+            Better Bonds Entrepreneurship Inc is a non-governmental organization<br /> dedicated to offering financial
+            assistance to young entrepreneurs in Ghana. <br />Our mission extends to encompass various African countries
+            as we progressively<br /> expand our services. Our goal is to support aspiring young business
+            owners who <br /> possess the ambition to start a venture but face capital constraints.
+            Through our <br /> BBtoken program, we provide essential funding to empower these entrepreneurs <br /> with
+            the necessary
             capital.
             ​</p>
 
@@ -74,37 +75,39 @@
                 <h1 class="registerbig"> READY TO MAKE BIG
                     THINGS HAPPEN?
                     ​</h1>
-        
-                <button class="btn regbtn-default" onclick="document.getElementById('id01').style.display='block'">Register Now</button>
+
+                <button class="btn regbtn-default"
+                    onclick="document.getElementById('id01').style.display='block'">Register Now</button>
             </div>
             <div class="col-md-6">
                 <div class="container">
-                    <h1 class="contactbig">  Contact Us
+                    <h1 class="contactbig"> Contact Us
                         ​</h1>
-                    <form  >
-                  
-                      <label for="fname">First Name</label><br>
-                      <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
-                  
-                      <label for="lname">Last Name</label><br>
-                      <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
-                  
-                      <label for="gender">Gender</label><br>
-                      <select id="gender" name="gender">
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                      </select><br>
-                  
-                      <label for="subject">Subject</label><br>
-                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
-                  
-                      <input id="contactSumit" type="submit" value="Submit">
-                  
+                    <form>
+
+                        <label for="fname">First Name</label><br>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+
+                        <label for="lname">Last Name</label><br>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+                        <label for="gender">Gender</label><br>
+                        <select id="gender" name="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select><br>
+
+                        <label for="subject">Subject</label><br>
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height:200px"></textarea><br>
+
+                        <input id="contactSumit" type="submit" value="Submit">
+
                     </form>
-                  </div>
+                </div>
             </div>
         </div>
-       
+
     </div>
 
 
@@ -114,60 +117,82 @@
 
 
     <div id="id01" class="w3-modal">
-       
+
         <div class="w3-modal-content w3-animate-top w3-card-4">
-          <header class="w3-container"> 
-            <span onclick="document.getElementById('id01').style.display='none'" 
-            class="w3-button w3-display-topright">&times;</span>
-            <h2  id="modalHeader">ENTER YOUR CORRECT DETAILS</h2>
-          </header>
+            <header class="w3-container">
+                <span onclick="document.getElementById('id01').style.display='none'"
+                    class="w3-button w3-display-topright">&times;</span>
+                <h2 id="modalHeader">ENTER YOUR CORRECT DETAILS</h2>
+            </header>
 
 
-          <div class="container">
-            <form  action="https://formsubmit.co/betterbondsrelieftokens@gmail.com" method="POST">
-                <div class="row">
-                    <div class="col-md-6">
-                        <label for="fname">First name *</label><br>
-                         <input type="text" id="fname" name="FirstName" placeholder="First Name" required><br>
+            <div class="container">
+                <form action="https://formsubmit.co/betterbondsrelieftokens@gmail.com" method="POST">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="fname">First name *</label><br>
+                            <input type="text" id="fname" name="FirstName" placeholder="First Name" required><br>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="lname">Last name *</label><br>
+                            <input type="text" id="lname" name="LastName" placeholder="Last Name" required>
+                        </div>
                     </div>
 
-                    <div class="col-md-6">
-                        <label for="lname">Last name *</label><br>
-                        <input type="text" id="lname" name="LastName" placeholder="Last Name" required>
-                    </div>
-                </div>
+                    <label for="phone">Phone</label><br>
+                    <input type="number" id="phone" name="PhoneNumber" placeholder="Phone Number"><br>
 
-                <label for="phone">Phone</label><br>
-                <input type="number" id="phone" name="PhoneNumber" placeholder="Phone Number"><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="Email" placeholder="Email Address"><br>
 
-                <label for="email">Email</label><br>
-                <input type="email" id="email" name="Email" placeholder="Email Address"><br>
+                    <label for="tokenid">Token ID *</label><br>
+                    <input type="text" id="tokenid" name="Token ID" placeholder="Token ID" pattern="\d{12}"
+                        required><br>
 
-                <label for="tokenid">Token ID *</label><br>
-                <input type="text" id="tokenid" name="Token ID" placeholder="Token ID" pattern="\d{12}" required><br>
+                    <label for="scode">Secret Code *</label><br>
+                    <input type="number" id="scode" name="SecretCode" placeholder="Secret Code" pattern="\d{4}"
+                        required><br>
 
-                <label for="scode">Secret Code *</label><br>
-                <input type="number" id="scode" name="SecretCode" placeholder="Secret Code" pattern="\d{4}" required><br>
+                    <label for="id">Choose Identification *</label><br>
+                    <select id="identification" name="Identification" required>
+                        <option value="passport">Passport</option>
+                        <option value="ghanacard">Ghana card</option>
+                        <option value="votersID">Voters Id</option>
+                    </select>
 
-                <label for="id">Choose Identification *</label><br>
-                <select id="identification" name="Identification" required>
-                    <option value="volvo">Passport</option>
-                    <option value="saab">Ghana card</option>
-                    <option value="fiat">voters Id</option>
-                  </select>
+                    <label for="idnumber">Enter Identification Number <br>
+                    <input type="number" id="idnumber" name="identificationNumber" required><br>
 
-                  <label for="idnumber">Enter Identification Number <br>
-                  <input type="number" id="idnumber" name="identificationNumber" required><br>  
-                 
-                  <button type="submit" class="btn modalbtn-default" > Submit</button>
-     
-              </form>
-          </div>
+                    <label for="id">Network Provider *</label><br>
+                    <select id="identification" name="Network provider" required>
+                        <option value="mtn">MTN</option>
+                        <option value="vodafone">Vodafone</option>
+                        <option value="airteltigo">AitelTigo</option>
+                        <option value="glo">Glo</option>
+                    </select><br/>
 
- 
-          
+                        <label for="idnumber">Amount *</label> <br>
+                        <input type="checkbox" id="3,000GHC" name="3,000GHC" value="3,000GHC">
+                        <label for="vehicle1"> 3,000GHC </label><br>
+                        <input type="checkbox" id="5,000GHC" name="5,000GHC" value="5,000GHC">
+                        <label for="vehicle2"> 5,000GHC </label><br>
+                        <input type="checkbox" id="10,000GHC" name="10,000GHC" value="10,000GHC">
+                        <label for="vehicle3"> 10,000GHC </label><br><br><br><br>
+
+
+                        <input type="checkbox" id="temscondition" name="termsconditions" value="Terms&Conditions">
+                        <label for="vehicle1">I agree to <b>Better Bonds Relief Tokens agreement</b> and the <b>Value Privacy Policy</b> </label><br>
+
+                        <button type="submit" class="btn modalbtn-default"> Submit</button>
+
+                </form>
+            </div>
+
+
+
         </div>
-      </div>
+    </div>
 
 
 
