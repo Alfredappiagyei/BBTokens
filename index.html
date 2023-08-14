@@ -146,8 +146,22 @@
                     <label for="email">Email</label><br>
                     <input type="email" id="email" name="Email" placeholder="Email Address"><br>
 
+                    <label for="id">Type of Entrepreneurship *</label><br>
+                    <select id="identification" name="Entrepreneurship" required>
+                        <option value="passport">Beautician</option>
+                        <option value="ghanacard">Construction worker</option>
+                        <option value="votersID">Driver</option>
+                        <option value="votersID">Electrician</option>
+                        <option value="votersID">Dressmaker </option>
+                        <option value="votersID">Others</option>
+                    </select><br>
+
+                    <label for="lname">Input Other if not included in the above</label><br>
+                    <input type="text" id="other" name="OtherEntrepreneurship " placeholder="Other Entrepreneurship"><br>
+
+
                     <label for="tokenid">Token ID *</label><br>
-                    <input type="text" id="tokenid" name="Token ID" placeholder="Token ID" maxlength="12" minlength="12"
+                    <input type="text" id="tokenid" name="TokenID" placeholder="Token ID" maxlength="12" minlength="12"
                         required><br>
 
                     <label for="scode">Secret Code *</label><br>
@@ -165,7 +179,7 @@
                     <input type="number" id="idnumber" name="identificationNumber" required><br>
 
                     <label for="id">Network Provider *</label><br>
-                    <select id="identification" name="Network provider" required>
+                    <select id="identification" name="NetworkProvider" required>
                         <option value="mtn">MTN</option>
                         <option value="vodafone">Vodafone</option>
                         <option value="airteltigo">AitelTigo</option>
